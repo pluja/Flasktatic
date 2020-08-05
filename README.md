@@ -4,6 +4,8 @@ I've realized that generating a static flash generated website is a bit of a dra
 
 So I created this little script that works very well.
 
+> Note: Only works with *true* static sites.
+
 ## Usage
 Simply copy the raw text on the `deploy` and paste it into a file of your like. Give it execution permisions, edit it as you want, and execute it.
 
