@@ -11,7 +11,7 @@ Simply copy the raw text on the `deploy` and paste it into a file of your like. 
 
 **PRE:** Install [httrack](https://www.httrack.com/)
 
-1. Create the file `vim deploy` and paste the content of [this file](https://github.com/pluja/Flasktatic/blob/master/deploy.sh)
+1. Create the file `vim deploy` and paste the content of [this file](https://raw.githubusercontent.com/pluja/Flasktatic/master/deploy.sh)
 2. Make sure you read it and edit whatever you want.
 3. Give it execution permisions: `chmod a+x deploy`
 4. Run it: `./deploy` (Be patient!)
