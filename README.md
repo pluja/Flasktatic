@@ -23,4 +23,5 @@ Simply copy the raw text on the `deploy` and paste it into a file of your like. 
 
 2. Edit whatever you want.
 3. Give it execution permisions: `chmod a+x deploy`
-4. Run it: `./deploy`
+4. Run it: `./deploy` (Be patient!)
+5. Enjoy
