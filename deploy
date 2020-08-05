@@ -1,0 +1,16 @@
+# Activate virtual env and run flask on background.
+source venv/bin/activate
+flask run&
+
+# Launch httrack to mirror website on localhost:port
+httrack --mirror http://127.0.0.1:5000/
+
+# Remove httrack useless files
+rm -rf *.gif *.html hts-*
+
+# Rename static page folder to public
+mv 127.0.0.1_5000 public
+
+# End
+killall flask
+deactivate
