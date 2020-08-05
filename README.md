@@ -1,4 +1,4 @@
-# Flastatic ;D
+# Flasktatic ;D
 
 I've realized that generating a static flash generated website is a bit of a drag. There is Frozen-Flask but it doesn't accept some file types and has problems with non-extension routes.
 
