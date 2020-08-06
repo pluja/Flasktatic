@@ -3,7 +3,7 @@ FLASK_IP="127.0.0.1"
 FLASK_PORT="5000"
 
 # Check if venv exists. If not create it and install requirements.
-if ![ -d "venv" ]; then
+if ! [ -d "venv" ]; then
     python3 -m venv venv
     pip3 install -r requirements.txt
 fi
